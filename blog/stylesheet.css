@@ -1,0 +1,16 @@
+/* Coffee style sheet */
+h1 {
+	font-family: sans-serif;
+	font-size: 14 pt;
+
+}
+nav {
+	font-family: sans-serif;
+	font-size: 12 pt;
+	color: #CC9966;
+	background-color: #330000;
+}
+p {
+	color: black;
+	font-family: serif;
+}
