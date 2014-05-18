@@ -1,16 +1,30 @@
 /* Blog style sheet */
-h1 {
+h1, h2, h3 {
 	font-family: sans-serif;
-	font-size: 14 pt;
-
+	font-size: 30 pt;
+	font-style: Impact;
+	font-weight: bolder;
+}
+h2 {
+	font-size: 20 pt;
 }
 nav {
 	font-family: sans-serif;
 	font-size: 12 pt;
-	color: #CC9966;
-	background-color: #330000;
+	font-weight: bold;
 }
 p {
-	color: black;
+	font-color: #330000;
 	font-family: serif;
+	font-variant: arial
+	font-size: 12 pt;
+}
+.date { 
+	font-weight: bold;
+	font-size: 14 pt;
+}
+.sidenav {
+	font-family: sans-serif;
+	font-size: 12 pt;
+	font-weight: bold;
 }
