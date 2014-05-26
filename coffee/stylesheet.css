@@ -20,6 +20,9 @@ p {
 	font-family: serif;
 	text-align: center;
 }
+.article {
+    text-align:center;
+}
 a:link, a:visited {
 	text-decoration: none;
 	color: #cc9966;
