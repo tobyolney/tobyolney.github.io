@@ -1,0 +1,5 @@
+
+To update github from the terminal
+git pull origin master
+git push origin master
+
