@@ -1,0 +1,42 @@
+/* Sandbox style sheet */
+h1 {
+	width:50%;
+}
+a {
+	color:black;
+}
+	.clear {
+	clear:both;
+}
+nav {
+	width:25%;
+	float:left;
+}
+nav ul {
+	list-style-type: none;
+}
+nav ul li{
+	text-decoration: none;
+}
+#header{
+	margin:20px;
+	border-bottom: 1px solid black;
+	position:relative;
+}
+#header ul {
+	margin-top:35px;
+	right:20px;
+	position:absolute;
+	bottom:10px;
+}
+#header ul li {
+	display:inline-block;
+}
+#header h1 {
+	float:left;
+}
+#main_content {
+	width:75%;
+	float:right;
+}
+
