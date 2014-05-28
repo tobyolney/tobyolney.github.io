@@ -1,27 +1,88 @@
 /* Coffee style sheet */
-h1 {
-	font-family: Tahoma;
-	font-size: 20pt;
+/* Fonts: grand-hotel, winterthur. Get them from fontsquirrel.com*/;
 
+@font-face {
+    font-family: 'grand_hotelregular';
+    src: url('type/grand-hotel/grandhotel-regular-webfont.eot');
+    src: url('type/grand-hotel/grandhotel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/grand-hotel/grandhotel-regular-webfont.woff') format('woff'),
+         url('type/grand-hotel/grandhotel-regular-webfont.ttf') format('truetype'),
+         url('type/grand-hotel/grandhotel-regular-webfont.svg#grand_hotelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-h2 {
-	font-family: arial;
-	font-size: 14pt;
+@font-face {
+    font-family: 'winterthurcondensedregular';
+    src: url('type/WinterthurCondensed/winterthurcondensed-webfont.eot');
+    src: url('type/WinterthurCondensed/winterthurcondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/WinterthurCondensed/winterthurcondensed-webfont.woff') format('woff'),
+         url('type/WinterthurCondensed/winterthurcondensed-webfont.ttf') format('truetype'),
+         url('type/WinterthurCondensed/winterthurcondensed-webfont.svg#winterthurcondensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'winterthurcondenseditalic';
+    src: url('type/WinterthurCondensed/winterthurcondensedoblique-webfont.eot');
+    src: url('type/WinterthurCondensed/winterthurcondensedoblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/WinterthurCondensed/winterthurcondensedoblique-webfont.woff') format('woff'),
+         url('type/WinterthurCondensed/winterthurcondensedoblique-webfont.ttf') format('truetype'),
+         url('type/WinterthurCondensed/winterthurcondensedoblique-webfont.svg#winterthurcondenseditalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	margin: 10px;
+}
+h1 {
+	font-family: 'winterthurcondensedregular';
+	font-size: 16px;
+}
+header h1 {
+	font-size: 50px;
+	margin: 20px;
+	color: white;
+	text-align: center;
+	width:200px;
+	line-height: 0.95em;
+	margin-left:auto;
+	margin-right:auto;
+}
+header {
+	background-color: #330000;
+	height:200px;
+	padding-top: 40px;
 }
 nav {
-	font-family: serif;
-	font-size: 12pt;
-	color: #CC9966;
+	font-family: 'Times', serif, #cc9966;
+	font-size: 16px;
 	background-color: #330000;
 	text-decoration: none;
+	text
+	text-align: center;
+	width: 210px;
+	margin: auto;
 }
 p {
 	color: black;
 	font-family: serif;
 	text-align: center;
 }
+#dream {
+	font-family: 'Vibur', sans-serif, white;
+	color: #cc9966;
+}
+#beanscafe {
+	font-family: 'winterthurcondensedregular', sans-serif, white;
+}
+.clear {
+	clear:both;
+}
 .article {
+	float: left;
     text-align:center;
+    width:47%;
+    margin:10pt;
 }
 a:link, a:visited {
 	text-decoration: none;
@@ -40,5 +101,4 @@ a:active {
 	font-size: 10pt;
 	color: #CC9966;
 	background-color: #330000;
-
 }

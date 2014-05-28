@@ -93,7 +93,6 @@ article h1 {
 	font-family: sans-serif;
 	font-size: 10px;
 	font-weight: bold;
-	line-height: 20px;
 	float: left;
 	width: 20%;
 	padding-right: 20 px;
@@ -103,8 +102,11 @@ article h1 {
 	padding-left: 0;
 	margin-right:  10px;
 }
+.sidenav ul li {
+	margin-bottom: 10px;
+}
 footer {
-	border-top: 1px;
+	border-top: 1px solid black;
 	position: relative;
 }
 footer p {
