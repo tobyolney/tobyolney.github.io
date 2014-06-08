@@ -83,6 +83,8 @@ p {
     text-align:center;
     width:47%;
     margin:10pt;
+    min-width: 310px;
+    max-width: 600px;
 }
 a:link, a:visited {
 	text-decoration: none;

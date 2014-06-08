@@ -80,7 +80,8 @@ article h1 {
 }
 .article {
 	float: right;
-	width: 80%;
+	width: 77%;
+	margin-left: 5px;
 }
 .date { 
 	font-weight: bold;
@@ -95,12 +96,11 @@ article h1 {
 	font-weight: bold;
 	float: left;
 	width: 20%;
-	padding-right: 20 px;
+	margin-top: 10px;
 }
 .sidenav ul {
 	list-style-type: none;
 	padding-left: 0;
-	margin-right:  10px;
 }
 .sidenav ul li {
 	margin-bottom: 10px;

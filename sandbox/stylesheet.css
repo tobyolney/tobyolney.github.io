@@ -1,42 +1,53 @@
 /* Sandbox style sheet */
-h1 {
-	width:50%;
+body {
+	margin: 0;
+	box-sizing: border-box;
 }
-a {
-	color:black;
+.sidebar {
+	background-color: red;
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-height: 900px;
+	width: 20%;
+	padding:10px;
 }
-	.clear {
+.header {
+	position: fixed;
+	left: 20%;
+	top: 0;
+	background-color: blue;
+
+	height: 80px;
+	width: 80%;
+	display: block;
+
+}
+.header h1 {
+	color: white;
+	text-align: center;
+}
+.sidebar h1 {
+	color: white;
+	font-size: 2em;
+	line-height: 30px;
+}
+.sidebar p {
+	color: white;
+	font-size: 1em;
+	line-height: 1.8em;
+}
+.clear {
 	clear:both;
 }
-nav {
-	width:25%;
-	float:left;
+.product {
+	float: left;
+	margin-left: 20%;
+	padding: 10px;
+	margin-top:90px;
+	background-color: yellow;
 }
-nav ul {
-	list-style-type: none;
+.product p {
+	margin-left: 20px;
 }
-nav ul li{
-	text-decoration: none;
-}
-#header{
-	margin:20px;
-	border-bottom: 1px solid black;
-	position:relative;
-}
-#header ul {
-	margin-top:35px;
-	right:20px;
-	position:absolute;
-	bottom:10px;
-}
-#header ul li {
-	display:inline-block;
-}
-#header h1 {
-	float:left;
-}
-#main_content {
-	width:75%;
-	float:right;
-}
-
